@@ -29,3 +29,5 @@ graphql : http://localhost:8424/__graphql
     - Deleting all Sass code I get the original error (I give up)
 8. Searching for fixes to issues I found some horror stories about Gatsby (misleading advertisements about performance etc.)
     - Disgruntled developers venting or legitimate unethical behaviour?
+9. Creating a personal Heroku test database and adding URL to netlify configs   
+    - https://dashboard.heroku.com/apps/mark-test-database

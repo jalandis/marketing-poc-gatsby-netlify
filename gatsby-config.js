@@ -43,6 +43,9 @@ module.exports = {
       resolve: 'gatsby-source-pg',
       options: {
         connectionString: process.env.DATABASE_URL,
+        ssl: {
+          rejectUnauthorized: false
+        },
         schema: 'public',
       },
     },
