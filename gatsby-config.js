@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env-secret`,
+})
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby + Netlify CMS Starter',
@@ -33,6 +37,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/img`,
         name: 'images',
+      },
+    },
+    {
+      resolve: 'gatsby-source-pg',
+      options: {
+        connectionString: process.env.DATABASE_URL,
+        schema: 'public',
       },
     },
     'gatsby-plugin-sharp',
