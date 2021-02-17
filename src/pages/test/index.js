@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../../components/Layout'
 import TestRoll from '../../components/TestRoll'
 
-export default class BlogIndexPage extends React.Component {
+export default class TestIndexPage extends React.Component {
   render() {
     return (
       <Layout>
