@@ -40,7 +40,7 @@ export default () => (
     query={graphql`
         query ImpactUsersQuery {
             postgres {
-                allImpactUsers {
+                allImpactUsers (first: 4, orderBy: NATURAL) {
                     edges {
                         node {
                           id
