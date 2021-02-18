@@ -2,6 +2,8 @@ require("dotenv").config({
   path: `.env-secret`,
 })
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby + Netlify CMS Starter',
@@ -43,9 +45,7 @@ module.exports = {
       resolve: 'gatsby-source-pg',
       options: {
         connectionString: process.env.DATABASE_URL,
-        ssl: {
-          rejectUnauthorized: false
-        },
+        ssl: isProduction ? { rejectUnauthorized: false } : false,
         schema: 'public',
       },
     },
