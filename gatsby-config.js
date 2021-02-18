@@ -2,7 +2,7 @@ require("dotenv").config({
   path: `.env-secret`,
 })
 
-const isProduction = process.env.NODE_ENV === 'production';
+const isLocal = process.env.NODE_ENV === 'development';
 
 module.exports = {
   siteMetadata: {
@@ -45,7 +45,7 @@ module.exports = {
       resolve: 'gatsby-source-pg',
       options: {
         connectionString: process.env.DATABASE_URL,
-        ssl: isProduction ? { rejectUnauthorized: false } : false,
+        ssl: isLocal ? false : { rejectUnauthorized: false },
         schema: 'public',
       },
     },
