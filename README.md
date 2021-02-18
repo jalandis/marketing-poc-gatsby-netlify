@@ -31,3 +31,7 @@ graphql : http://localhost:8424/__graphql
     - Disgruntled developers venting or legitimate unethical behaviour?
 9. Creating a personal Heroku test database and adding URL to netlify configs   
     - https://dashboard.heroku.com/apps/mark-test-database
+
+Calling it quits - latest build error
+
+https://app.netlify.com/sites/laughing-noether-7b439b/deploys/602db0d1195b4c0e2e8b785c
