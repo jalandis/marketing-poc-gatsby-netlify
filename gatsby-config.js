@@ -12,7 +12,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-typescript',
     {
       resolve: 'gatsby-plugin-sass',
       options: {
@@ -45,7 +44,6 @@ module.exports = {
       resolve: 'gatsby-source-pg',
       options: {
         connectionString: process.env.DATABASE_URL,
-        ssl: isLocal ? false : { rejectUnauthorized: false },
         schema: 'public',
       },
     },
