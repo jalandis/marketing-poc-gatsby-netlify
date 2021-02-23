@@ -1,7 +1,35 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
+import fetch from 'cross-fetch'
+
 
 import Layout from '../../components/Layout'
 import PGRoll from '../../components/PGRoll'
+
+const TimeComponent = () => {
+  const [time, setTime] = useState(null)
+  const [count, setCount] = useState(0)
+
+  function getTime(e) {
+    e.preventDefault();
+
+    fetch(
+        'http://worldtimeapi.org/api/timezone/America/Argentina/Salta'
+    ).then(response => response.json())
+    .then(json => setTime(json.datetime))
+    .catch(error => setTime(error))
+
+    setCount(count + 1)
+  }
+
+
+  return <div>
+    <p>You clicked {count} times</p>
+    <div>{time}</div>
+    <button onClick={getTime}>
+      Click me
+    </button>
+  </div>
+}
 
 export default class PGPage extends React.Component {
   render() {
@@ -26,8 +54,9 @@ export default class PGPage extends React.Component {
           </h1>
         </div>
         <section className="section">
-          <div classNamae="container">
+          <div className="container">
             <div className="content">
+              <TimeComponent />
               <PGRoll />
             </div>
           </div>
