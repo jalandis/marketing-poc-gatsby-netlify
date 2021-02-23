@@ -13,7 +13,7 @@ const TimeComponent = () => {
     e.preventDefault();
 
     fetch(
-        'http://worldtimeapi.org/api/timezone/America/Argentina/Salta'
+        'https://worldtimeapi.org/api/timezone/America/Argentina/Salta'
     ).then(response => response.json())
     .then(json => setTime(json.datetime))
     .catch(error => setTime(error))
