@@ -1,5 +1,5 @@
 ---
-heading: Kill All The Humans
+heading: Drink More Coffee
 path: /products
 templateKey: product-page
 title: Our Coffee is the Best
