@@ -1,19 +1,23 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-date: 2016-12-17T15:04:10.000Z
+title: Making sense of the SCAA’s new Flavor Wheelasdf
+date: 2021-03-12T15:04:10.000Z
+description: "The Coffee Taster’s Flavor Wheel, the official resource used by
+  coffee tasters, has been revised for the first time this year. "
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
 tags:
   - flavor
   - tasting
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/chemex.jpg)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+Asymmetrical crucifix snackwave pinterest salvia cloud bread brunch vice marfa. Echo park celiac shabby chic, cardigan master cleanse lo-fi you probably haven't heard of them drinking vinegar 3 wolf moon banjo. Hexagon twee yr, gluten-free copper mug asymmetrical affogato fam locavore. Cray vaporware DIY single-origin coffee.
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+
+Four loko food truck hexagon, sriracha offal bespoke dreamcatcher pinterest. Master cleanse tote bag meditation vice forage. Twee readymade adaptogen flexitarian bicycle rights sartorial put a bird on it 8-bit shaman. Woke portland normcore dreamcatcher messenger bag, fanny pack vexillologist umami coloring book sriracha polaroid asymmetrical actually succulents kale chips. Adaptogen post-ironic shaman man bun man braid vape etsy umami iPhone.
+
+Copper mug forage taiyaki, offal quinoa church-key literally brunch pabst bicycle rights neutra pitchfork subway tile lomo sartorial. Bicycle rights irony craft beer echo park normcore drinking vinegar crucifix taiyaki sartorial la croix meditation. Fingerstache actually skateboard sriracha offal, fam jean shorts photo booth kitsch tumblr craft beer direct trade single-origin coffee shabby chic glossier. Pok pok live-edge woke, master cleanse dreamcatcher squid sartorial.
 
 ## What the updates mean to you
 
