@@ -2,7 +2,7 @@
 heading: Kill All The Humans
 path: /products
 templateKey: product-page
-title: Our Coffee
+title: Our Coffee is the Best
 image: /img/jumbotron.jpg
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
